@@ -1,0 +1,168 @@
+html {
+	font-size: 10px;
+	font-family: 'Open Sans', sans-serif;
+	color: #333;
+}
+
+/*main screen*/
+
+section#main {
+	height: 100vh;
+	min-height: 400px;
+	background: url('img/main.jpg') no-repeat center center;
+	background-size: cover;
+	background-attachment: fixed;
+	text-align: center;
+	color: #000000;
+}
+
+.main-header {
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	top: 50%;
+}
+.main-header h1 {
+	font-size: 4rem;
+	text-transform: uppercase;
+	margin-bottom: 2rem;
+}
+.main-header p {
+	font-size: 2rem;
+	line-height: 1.4;
+	margin-top: 3rem;
+}
+.main-line {
+	height: 2px;
+	display: block;
+	width: 100%;
+	background-color: #ccc;
+}
+.main-arrow {
+	width: 3rem;
+	height: 3rem;
+	border-right: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	transform: translateX(-50%) translateY(-50%) rotate(45deg);
+	position: absolute;
+	left: 50%;
+	bottom: 5%;
+}
+section#choise {
+	padding-top: 5rem;
+	padding-bottom: 5rem;
+}
+.choise-header {
+	text-align: center;
+	font-weight: 700;
+	font-size: 3rem;
+	text-transform: uppercase;
+}
+.choise-works {
+
+	padding-top: 5rem;
+	padding-bottom: 5rem;
+}
+.choise-box {
+	display: inline-block;
+	width: 33.33%;
+	text-align: center;
+}
+.choise-box img {
+	width: 100%;
+	max-width: 280px;
+	max-height: 250px;
+}
+.choise-box a {
+	display: block;
+	text-align: center;
+	font-size: 2.5rem;
+	text-decoration: none;
+	color: #555;
+}
+.container {
+	font-size: 0;
+	width: 95%;
+	max-width: 1170px;
+	margin: 0 auto;
+}
+footer {
+	background-color: #646464;
+	padding-top: 3rem;
+	padding-bottom: 3rem;
+	text-align: center;
+	color: #fff;
+}
+footer a {
+	color: #fff;
+}
+.footer-info, .social, .callback {
+	display: inline-block;
+	width: 33.33%;
+	vertical-align: top;
+}
+.footer-info, .social, .callback {
+	font-size: 1.5rem;
+}
+.footer-name, .subscribe{
+	font-size: 2rem;
+	margin-bottom: 1rem;
+}
+.social img {
+	width: 2rem;
+	height: 2rem;
+}
+.social .vk {
+	width: 1rem;
+}
+.social a {
+	margin-left: 1rem;
+	margin-right: 1rem;
+	border: 1px solid #fff;
+	display: inline-block;
+	width: 6rem;
+	height: 6rem;
+	vertical-align: middle;
+	border-radius: 50%;
+	line-height: 6.5rem;
+}
+.email {
+	display: inline-block;
+	padding: 1rem 2rem;
+	border: 1px solid #fff;
+	border-radius: 50px;
+	text-decoration: none;
+		-webkit-transition: all 0.2s;
+		-o-transition: all 0.2s;
+		transition: all 0.2s;
+}
+.email:hover {
+	color: #555;
+	background-color: #fff;
+}
+@media (max-width: 768px) {
+	html {
+		font-size: 9px;
+	}
+	.container {
+		width: 95%;
+	}
+	.choise-box, .footer-info, .social, .callback {
+		width: 100%;
+	}
+	.choise-box {
+		margin-bottom: 5rem;
+	}
+	.footer-info, .social, .callback {
+		margin-bottom: 5rem;
+	}
+} 
+@media (max-width: 480px) {
+	html {
+		font-size: 8px;
+	}
+@media (max-width: 900px) {
+	.choise-box {
+		padding: 2rem;
+	}
+}
