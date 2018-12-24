@@ -36,6 +36,6 @@ time.sleep(2)
 if sum_pl_one > sum_pl_two:
     print(player1, 'wins. Congratulations!')
 elif sum_pl_two > sum_pl_one:
-    print(player2, 'wins.Congratulations!')
+    print(player2, 'wins. Congratulations!')
 else:
     print('Tie!!!')
