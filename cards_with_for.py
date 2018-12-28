@@ -49,3 +49,17 @@ for mean in card_mean_player_two:
     card_mean_2 = mean
 
 print('Игроку', player2, 'выпала карта', card_mean_2, card_suit_2)
+
+if card_mean_1 > card_mean_2:
+    print('Победа за игроком ', player1)
+elif card_mean_1 < card_mean_2:
+    print('Победа за игроком ', player2)
+elif card_mean_1 == card_mean_2:
+    if card_suit_1 > card_suit_2:
+        print('Победа за игроком ', player1)
+    else:
+        print('Победа за игроком ', player2)
+else:
+    print('Что то пошло не так')
+
+
